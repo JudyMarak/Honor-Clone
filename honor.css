@@ -1,0 +1,593 @@
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+   display: flex;
+   justify-content: space-between   ;
+   align-items: center;
+   padding: 15px;
+   height: 60px;
+   background-color: white;
+}
+
+/* .nav-link{
+    display: flex;
+    justify-content: space-between;
+} */
+.nav-link a{
+  text-decoration: none;
+  color: #000;;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.user-search i{
+    padding-right: 20px;  
+    font-size: 20px;  
+}
+main{
+    
+    
+}
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/bg-banner.jpg);
+    background-size: cover; 
+    background-position: center;
+    min-height: 100vh;
+    margin: auto;
+}
+.product-left{
+    width: 500px;
+    height: 300px;
+    /* padding-left: 90px; */
+    margin-top: 280px;
+    position: relative;
+}
+.netwrkG{
+    width: 20px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    position: absolute;
+    bottom: 180px;
+}
+.product-left h1 {
+   text-align: center;
+   color: white;
+}
+
+.product-left hr{
+    border: 2px solid gray;
+    width: 150px;  
+}
+.btn-more{
+    text-align: center;
+    padding: 15px;
+}
+.btn-more button{
+    width: 100px;
+    padding: 15px;
+    background-color: rgb(52, 121, 250) ;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.btn-more span{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.btn-more i{
+    color: white;
+    font-size: 20px;
+}
+.btn-more i:hover{
+    color: rgba(128, 128, 128, 0.863);
+}
+.product-right{
+    width: 500px;
+    height: 300px;
+    padding-right: 100px;
+    margin-top: 280px;
+}
+.product-right h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+ }
+ .product-right hr{
+     border: 2px solid rgb(228, 228, 228);
+     width: 150px;  
+ }
+ .version{
+    width: 20px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    position: absolute;
+    bottom: 20px;
+ }
+ .gallery{
+    width: 100%;
+    height: 800px;
+    background-image: url(./img/honor-magic6pro.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-between;
+    padding: 20px;  */
+ }
+ .info-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    position: relative;
+    left: 49%;
+    top: 35%;
+ }
+ .info-div h1{
+   font-size: 50px;
+ }
+
+ .verG{
+    width: 19px;
+    height: 12px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: black;
+    font-size: 11px;
+    padding: 5px;
+    margin-left: 5px;
+    position: absolute;
+    margin-bottom: 100px;
+    
+ }
+ .info-div h3{
+    margin-top: -2%;
+    color: gray;
+    font-size: 30px;
+ }
+ .btn-learn button{
+    width: 70px;
+    padding: 8px;
+    background-color: rgb(52, 121, 250) ;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    margin-right: 15px;
+ }
+ .btn-learn i{
+    color: #000;
+    font-size: 18px;
+ }
+ .btn-learn i:hover{
+    color: rgba(128, 128, 128, 0.863);
+ }
+ .gallery1{
+    background-color: #fffafade;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin-top: 20px;
+ }
+ .details-div{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+ }
+ .details-div h1{
+    font-size: 50px;
+ }
+
+ .picture-am{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .left-img{
+    width:40%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+ }
+ .left-img img{
+    width: 80%;
+    height: 80%;
+    
+ }
+ .mid-img{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .mid-img img{
+    margin: auto;
+    width: 20%;
+    height: 80%
+ }
+ .right-img{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+ .right-img img{
+    width: 60%;
+    height: 80%;
+ }
+.gallery2{
+    width: 100%;
+    height: 900px;
+    background-image: url(./img/honor-90.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: auto;
+    margin-top: 20px;
+}
+.gallery3-content{
+    height: 81rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px 0 10px 0;
+}
+.gallery3{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40rem;
+    width: 100%;
+
+}
+.gallery3-1{
+    width: 48%;
+    height: 98%;
+    
+}
+.gallery3-2{    
+    height:98%;
+    width: 48%;
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content:center ;
+ align-items: center;
+ background-color: rgba(128, 128, 128, 0.712);
+ height: 45%;
+ 
+}
+.container2{
+    background-color: rgba(128, 128, 128, 0.712);
+}
+.band9,.Earbuds{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.container p{
+    font-size: 30px;
+    color: rgba(128, 128, 128, 0.911);
+}
+.BuyBtn{
+    width: 100px;
+    padding: 15px;
+    background-color: rgb(52, 121, 250) ;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.learnBtn{
+    color: #000;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+
+}
+.container2{
+    height: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery4{
+    background-color: #000;
+    height: 1400px;
+}
+.gallery-banner{
+    width: 100%;
+    background-image: url(./img/mwc-pc.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+    display: flex;align-items: center;
+    margin-top: 50px;
+}
+.gallery-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: center; */
+    color: white;
+ 
+    padding-left: 35px;
+}
+.gallery-info h1{
+    font-size: 35px;
+ }
+ .gallery-info p{
+    color:white;
+    font-size: 25px;
+ }
+.learn-more span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.learn-more i{
+    font-size: 20px;
+}
+.gallery4-1{
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    /* gap: 2%; */
+}
+.award-gallery{
+    width: 48%;
+    background-image: url(./img/magic-moments-awards-2024-690.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;
+    height: 40rem;
+    display: flex;
+    align-items: end;
+    margin-top: 50px;
+}
+.Award-text p{
+    font-size: 30px;
+    color: #000000c7;
+    font-family: sans-serif;
+}
+.Award-24{
+    font-size: 60px;
+    /* font-weight: bold; */
+    color: #000000c7;
+    font-family: sans-serif;
+}
+.Award-text h1{
+    font-size: 43px;
+    color: #000000d7;
+    font-family: sans-serif;
+}
+.learnMore{
+    font-size: 25px;
+    color: #000000ea;
+    border: none;
+
+}
+.talent-gallery{
+    width: 48%;
+    background-image: url(./img/honor-talents-2023-2070.jpg);
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-position: center;
+    height: 40rem;
+    display: flex;
+    align-items: end;
+    margin-top: 50px;
+    
+}
+.Talent-text p{
+    font-size: 30px;
+    color: #000000c7;
+    font-family: sans-serif;
+}
+.Talent-text h1{
+    font-size: 43px;
+    color: #000000d7;
+    font-family: sans-serif;
+}
+.Award-info, .talent-info{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Award-text, .Talent-text{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding-left: 80px;
+}
+
+footer{
+    background-color: #000;
+    color: white;
+    box-sizing: border-box;
+}
+.navigate{
+    height: 150px;
+    background-color: #000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+    
+}
+.navigate a{
+    color: gray;
+    text-decoration: none;
+}
+.navigate i{
+    padding: 5px;
+    color: gray;
+    
+}
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #000;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.foot-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #000; 
+}
+.foot-link{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.foot-link a {
+    text-decoration: none;
+    color: #ffffff4b;
+    padding: 6px;
+    
+}
+.subcribe{
+    color: white;
+}
+.para{
+    width: 580px;
+   
+}
+.para p{
+ color: #ffffff4b;
+   
+}
+.search-box input{
+    width: 370px;
+    padding: 16px;
+    border: 1 px solid #ffffff4b;
+    background-color: #000;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.subcribe-btn{
+    width: 160px;
+    padding: 16px;
+    background-color: white;
+    color:  #0000009a;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.social-media{
+    display: flex;
+    background-color:  #0000009a;
+ 
+    
+}
+.social-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #000;
+    color: white;
+}
+
+.round{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid;
+    text-align: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-right: 10px;
+    background-color:  #ffffff4b;   
+    
+}
+
+.language{
+    
+    padding: 10px;
+}
+.site-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 8px;
+}
+.site-items a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+.logo-para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.logo-para p{
+   padding: 10px;
+   color: #ffffff4b;
+   font-size: 15px;
+}
+.logo-para img{
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+ }
+.logo-para span{
+    padding: 8px;
+    color: #ffffff4b;
+    font-size: 15px;
+ }
+ 
+
+
